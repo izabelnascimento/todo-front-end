@@ -28,13 +28,14 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
           },
           "configurations": {
             "production": {
-              "budgets": [
+              "budgets": [q
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
@@ -103,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e94b367e-6856-4af6-a47c-7a97c0088b29"
   }
 }
